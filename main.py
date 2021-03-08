@@ -1,13 +1,9 @@
-#actividad llenar una matriz de nxn con valores aleatorios
-
-
 from random import randint
 
 def llenar_matriz(n):#funcion, n sera el tamaño de la matriz
     matriz = []  #creamos la variable que se llame matriz , que sera un arreglo
 
-    for r in range(n):#el primero ciclo for es para iterar las filas de la matriz, segun la cantidad que indique n
-        #por cada iteracion del ciclo for , creamos una fila , con un arreglo vacio
+    for r in range(n):#el primero ciclo for es para iterar las 
         fila = []
         
         #este ciclo for anidado ,que va a recorrer cada una de las columnas para la fila actual
